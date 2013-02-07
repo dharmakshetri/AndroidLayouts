@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Font Test"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/font1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="This is Font Test."
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/font2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/font1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="This is Font Test."
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/font3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/font2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="This is Font Test."
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/font4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/font3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="This is Font Test."
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/font5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/font4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="This is Font Test."
+        android:textSize="30sp" />
+
+</RelativeLayout>
